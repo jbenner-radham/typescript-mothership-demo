@@ -4,7 +4,7 @@
 
 "typescript-starship-demo@git+https://github.com/jbenner-radham/typescript-starship-demo.git":
   version "0.0.0"
-  resolved "git+https://github.com/jbenner-radham/typescript-starship-demo.git#621bb17bca70fdabf4127072d0fc8c7cdd4f65b8"
+  resolved "git+https://github.com/jbenner-radham/typescript-starship-demo.git#463aad072372d839d67b449f8957a4c3471857c1"
 
 typescript@^2.8.1:
   version "2.8.1"

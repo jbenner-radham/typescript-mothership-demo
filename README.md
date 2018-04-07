@@ -13,6 +13,7 @@ $ yarn install && node ./dist/index.js
 See Also
 --------
 - [package.json § Git URLs as Dependencies | npm Documentation](https://docs.npmjs.com/files/package.json#git-urls-as-dependencies)
+- [Running Yarn Offline | Yarn Blog](https://yarnpkg.com/blog/2016/11/24/offline-mirror/)
 
 License
 -------
