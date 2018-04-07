@@ -1,0 +1,25 @@
+{
+  "name": "typescript-mothership-demo",
+  "version": "0.0.0",
+  "description": "A modularization demo with the child dependency: typescript-starship-demo",
+  "main": "./dist/index.js",
+  "scripts": {
+    "postinstall": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/typescript-mothership-demo.git"
+  },
+  "author": "James Benner <james.benner@gmail.com> (http://www.jamesbenner.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/typescript-mothership-demo/issues"
+  },
+  "homepage": "https://github.com/jbenner-radham/typescript-mothership-demo#readme",
+  "devDependencies": {
+    "typescript-starship-demo": "git+https://github.com/jbenner-radham/typescript-starship-demo.git",
+    "typescript": "^2.8.1"
+  },
+  "private": true
+}
