@@ -1,10 +1,14 @@
 {
   "name": "typescript-mothership-demo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A modularization demo with the child dependency: typescript-starship-demo",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "clean": "rm -rf ./dist ./node_modules ./yarn-offline-mirror ./yarn.lock ./yarn-error.log",
-    "test": "ts-node ./node_modules/.bin/jasmine"
+    "compile": "tsc",
+    "postinstall": "tsc",
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -17,12 +21,9 @@
   },
   "homepage": "https://github.com/jbenner-radham/typescript-mothership-demo#readme",
   "devDependencies": {
-    "@types/jasmine": "^2.8.6",
-    "@types/semver": "^5.5.0",
     "jasmine": "^3.1.0",
     "jasmine-spec-reporter": "^4.2.1",
     "semver": "^5.5.0",
-    "ts-node": "^5.0.1",
     "typescript": "^2.8.1",
     "typescript-starship-demo": "git+https://github.com/jbenner-radham/typescript-starship-demo.git#semver:^0.1.0"
   },
