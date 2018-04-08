@@ -62,3 +62,6 @@ dist/
 
 # Ignoring Yarn lockfile for demo purposes
 yarn.lock
+
+# Don't ignore our offline cache for Yarn
+!yarn-offline-mirror/*.tgz
