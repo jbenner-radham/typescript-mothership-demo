@@ -2,12 +2,12 @@ typescript-mothership-demo
 ==========================
 A modularization demo with the child dependency: [typescript-starship-demo](https://github.com/jbenner-radham/typescript-starship-demo).
 
-Running the Demo
-----------------
+Testing
+-------
 Download this repo and then from the project root run:
 
 ```sh
-$ yarn install && node ./dist/index.js
+$ yarn install && yarn test
 ```
 
 See Also
