@@ -1,6 +1,6 @@
 {
   "name": "typescript-mothership-demo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A modularization demo with the child dependency: typescript-starship-demo",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
